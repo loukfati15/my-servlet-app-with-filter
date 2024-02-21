@@ -1,0 +1,50 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+
+    <servlet>
+        <servlet-name>my-first-servlet</servlet-name>
+        <servlet-class>com.hatim.app.AppServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>my-first-servlet</servlet-name>
+        <url-pattern>/example</url-pattern>
+    </servlet-mapping>
+<<<<<<< HEAD
+	
+	
+	<servlet>
+        <servlet-name>hellow-you</servlet-name>
+        <servlet-class>com.hatim.app.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hellow-you</servlet-name>
+=======
+
+
+    <servlet>
+        <servlet-name>hello-servlet</servlet-name>
+        <servlet-class>com.hatim.app.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello-servlet</servlet-name>
+>>>>>>> 2b3a32b98d4749dc61529852da8d765a9a90f461
+        <url-pattern>/hello-you</url-pattern>
+    </servlet-mapping>
+	
+	
+<<<<<<< HEAD
+   <filter>
+      <filter-name>security-filter</filter-name>
+      <filter-class>com.hatim.app.SecurityFilter</filter-class>
+   </filter>
+   <filter-mapping>
+      <filter-name>security-filter</filter-name>
+      <url-pattern>/hello-you</url-pattern>
+   </filter-mapping>
+
+=======
+	
+>>>>>>> 2b3a32b98d4749dc61529852da8d765a9a90f461
+</web-app>
